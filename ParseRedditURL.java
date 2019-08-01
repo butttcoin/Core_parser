@@ -23,6 +23,7 @@ public class ParseRedditURL {
 
         ret.setScore(Integer.parseInt(score.text()));
         ret.setUsername(author.text());
+        ret.setUrl(URL);
         return ret;
     }
 
